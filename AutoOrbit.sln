@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{694E7885-851E-4630-BF5A-05D529495946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoOrbit.Api", "src\API\AutoOrbit.Api\AutoOrbit.Api.csproj", "{5E105F71-3614-4942-9703-8E34F1B48FAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E80317EC-8814-4299-8607-A3855AC274A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoOrbit.Web.UI", "src\UI\AutoOrbit.Web.UI\AutoOrbit.Web.UI.csproj", "{29E90ED5-6F87-118A-AEB8-58EA899DEB7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E105F71-3614-4942-9703-8E34F1B48FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E105F71-3614-4942-9703-8E34F1B48FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E105F71-3614-4942-9703-8E34F1B48FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E105F71-3614-4942-9703-8E34F1B48FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E90ED5-6F87-118A-AEB8-58EA899DEB7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E90ED5-6F87-118A-AEB8-58EA899DEB7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E90ED5-6F87-118A-AEB8-58EA899DEB7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E90ED5-6F87-118A-AEB8-58EA899DEB7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{694E7885-851E-4630-BF5A-05D529495946} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{5E105F71-3614-4942-9703-8E34F1B48FAC} = {694E7885-851E-4630-BF5A-05D529495946}
+		{E80317EC-8814-4299-8607-A3855AC274A4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{29E90ED5-6F87-118A-AEB8-58EA899DEB7C} = {E80317EC-8814-4299-8607-A3855AC274A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE401D7E-19F3-4391-A473-EC1FCFE151CE}
+	EndGlobalSection
+EndGlobal
